@@ -17,6 +17,33 @@ Untuk mencapai tujuan membuat sistem rekomendasi film disini saya menggunakan pe
 *	Collaborative Filtering merupakan cara untuk memberi rekomendasi bedasarkan penilaian komunitas pengguna atau biasa disebut dengan rating. Metode yang saya akan gunakan untuk mendukung collaborative filtering yaitu dengan deep learning. Penggunaan metode deep learning pada sistem rekomendasi lebih efisien dan tepat sasaran. Keberhasilan deep learning untuk mendapatkan rekomendasi baik di dunia akademis maupun di industri membutuhkan pemahaman yang komprehensif review dan ringkasan untuk peneliti dan praktisi berturut-turut untuk lebih memahami kekuatan dan kelemahan, dan skenario aplikasi model ini. 
 
 ## Data Understanding
+Dataset yang saya ambil berasal dari [kaggle](https://www.kaggle.com/) . yang merupakan salah satu platform di bidang Data Science. Pada proyek ini saya menggunakan dataset berikut dimana sesuai dengan topik yang saya ambil yaitu mengenai data film pada platform [MUBI](https://mubi.com/) . Berikut adalah penjelasan mengenai kolom pada dataset:
+**mubi_movie_data.csv**
+*	movie_id: ID yang terkait dengan film di Mubi
+*	movie_title: Nama film atau judul film
+*	movie_release_year: Tahun rilis film
+*	movie_url: URL ke halaman film di Mubi
+*	movie_title_language: Secara default, judulnya dalam bahasa Inggris.
+*	movie_popularity: Jumlah pengguna Mubi yang menyukai film ini
+*	movie_image_url: URL gambar ke film di Mubi
+*	director_id: ID yang terkait dengan sutradara film di Mubi
+*	director_name: Nama lengkap sutradara Film
+*	director_url: URL ke halaman sutradara film di Mubi
+**mubi_ratings_data.csv**
+*	movie_id: ID film terkait dengan peringkat
+*	rating_id: Peringkat ID di Mubi
+*	rating_url: URL ke peringkat di Mubi
+*	rating_score: Skor penilaian mulai dari 1 (terendah) hingga 5 (tertinggi)
+*	rating_timestamp_utc: Stempel waktu untuk peringkat film yang dibuat oleh pengguna di Mubi
+*	critic: Kritik yang dibuat oleh pengguna menilai film.
+*	critic_likes: Jumlah suka terkait dengan kritik yang dibuat oleh pengguna menilai film
+*	critic_comments: Jumlah komentar yang terkait dengan kritik yang dibuat oleh pengguna menilai film
+*	user_id: ID yang terkait dengan peringkat pengguna film
+*	user_trialist
+	* 1 = pengguna adalah seorang trialist ketika dia menilai film
+	* 0 = pengguna bukan seorang trialist ketika dia menilai film
+
+
 ## Data Preparation
 ## Modeling and Result
 ## Evaluation
