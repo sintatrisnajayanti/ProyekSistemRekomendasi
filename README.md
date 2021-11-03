@@ -17,7 +17,7 @@ Untuk mencapai tujuan membuat sistem rekomendasi film disini saya menggunakan pe
 *	Collaborative Filtering merupakan cara untuk memberi rekomendasi bedasarkan penilaian komunitas pengguna atau biasa disebut dengan rating. Metode yang saya akan gunakan untuk mendukung collaborative filtering yaitu dengan deep learning. Penggunaan metode deep learning pada sistem rekomendasi lebih efisien dan tepat sasaran. Keberhasilan deep learning untuk mendapatkan rekomendasi baik di dunia akademis maupun di industri membutuhkan pemahaman yang komprehensif review dan ringkasan untuk peneliti dan praktisi berturut-turut untuk lebih memahami kekuatan dan kelemahan, dan skenario aplikasi model ini. 
 
 ## Data Understanding
-Dataset yang saya ambil berasal dari [kaggle](https://www.kaggle.com/) . yang merupakan salah satu platform di bidang Data Science. Pada proyek ini saya menggunakan dataset [berikut](https://www.kaggle.com/clementmsika/mubi-sqlite-database-for-movie-lovers) dimana sesuai dengan topik yang saya ambil yaitu mengenai data film pada platform [MUBI](https://mubi.com/) . Berikut adalah penjelasan mengenai kolom pada dataset:
+Dataset yang saya ambil berasal dari [kaggle](https://www.kaggle.com/) . yang merupakan salah satu platform di bidang Data Science. Pada proyek ini saya menggunakan dataset [berikut](https://www.kaggle.com/clementmsika/mubi-sqlite-database-for-movie-lovers) dimana sesuai dengan topik yang saya ambil yaitu mengenai data film pada platform MUBI . Berikut adalah penjelasan mengenai kolom pada dataset:
 
 **mubi_movie_data.csv**
 *	movie_id: ID yang terkait dengan film di Mubi
