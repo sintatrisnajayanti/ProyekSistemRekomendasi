@@ -48,11 +48,13 @@ Dataset yang saya ambil berasal dari [kaggle](https://www.kaggle.com/) . yang me
 Pada proyek kali ini saya hanya menggunakan beberapa kolom saja dan mengganti nama kolom tersebut menjadi seperti berikut ini: 
 
 **mubi_movie_data.csv**
+
 Jumlah data yang saya gunakan disini 20.000
 
 ![messageImage_1635930938500](https://user-images.githubusercontent.com/89082302/140034744-ed13921c-6256-43ee-b4d5-357a3006b19b.jpg)
 
 **mubi_ratings_data.csv**
+
 Jumlah data yang saya gunakan disini 25.000
 
 ![messageImage_1635930948774](https://user-images.githubusercontent.com/89082302/140034751-d1bbaae9-229c-46aa-8606-9ed3d00855c5.jpg)
