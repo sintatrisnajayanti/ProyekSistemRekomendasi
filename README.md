@@ -120,8 +120,8 @@ MAE mengukur besarnya rata-rata kesalahan dalam serangkaian prediksi, tanpa memp
 ![messageImage_1635932832261](https://user-images.githubusercontent.com/89082302/140039000-e7324e91-82e7-4606-a581-04e042b8e011.jpg)
 
 
-Di dalam evaluation ini saya juga akan menampilkan visualisasi dari metriks yang saya gunakan adalah sebagai berikut: 
+Di dalam evaluation ini saya juga akan menampilkan visualisasi dari metriks yang saya gunakan dimana menunjukkan penurunan yang artinya nilai MAE dan RMSE semakin kecil setiap epoch dijalankan. 
 
-![messageImage_1635932719547](https://user-images.githubusercontent.com/89082302/140039036-453c5d14-f7c2-4ce0-a2a2-d06430073738.jpg)
+![messageImage_1635933173677](https://user-images.githubusercontent.com/89082302/140039847-22f4a9f6-a7ac-41fc-acb3-26e1f0f13879.jpg)
 
 ## Kesimpulan
