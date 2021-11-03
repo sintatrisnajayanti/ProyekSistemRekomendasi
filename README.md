@@ -82,7 +82,7 @@ Dalam data preparation ini saya menggunakan beberapa teknik untuk memeriksa keti
 ![messageImage_1635931544037](https://user-images.githubusercontent.com/89082302/140036190-0dd806bf-9e0d-4517-a98c-bf8ed968de12.jpg)
 
 2.   Teknik yang kedua yaitu encoding data dimana pada teknik ini digunakan untuk menyandikan nilai unik ke dalam indeks integer pada kolom User_ID dan Movie_ID. Kemudian hasil encoding tersebut saya masukkan ke dalam dataframe df. Hasil dari proses encoding data adalah sebagai berikut: 
-	
+3.   
 	* Encoding data pada User_ID
 	
 ![messageImage_1635931551044](https://user-images.githubusercontent.com/89082302/140036416-f1eba63c-6da0-4e34-93f6-4eaf256bbbad.jpg)
