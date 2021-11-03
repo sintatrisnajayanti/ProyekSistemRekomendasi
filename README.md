@@ -79,25 +79,26 @@ Lalu saya juga ingin menampilkan visualisasi data dari kolom Director menggunaka
 Dalam data preparation ini saya menggunakan beberapa teknik untuk memeriksa ketiga data yang saya gunakan. Data yang dimaksud yaitu pada data_movie, data_ratings, dan df (gabungan kedua data). 
 1.   Teknik pertama yaitu mengecek data null karena jika ada data yang kosong atau nol akan membuat prediksi menjadi kurang akurat. Jika terdapat data yang mengandung null maka dihapus menggunakan dataframe.dropna(). Hasil dari cek data null pada 3 data yang saya gunakan sebagai berikut: 
 
-![messageImage_1635931544037](https://user-images.githubusercontent.com/89082302/140036190-0dd806bf-9e0d-4517-a98c-bf8ed968de12.jpg)
+	![messageImage_1635931544037](https://user-images.githubusercontent.com/89082302/140036190-0dd806bf-9e0d-4517-a98c-bf8ed968de12.jpg)
 
 2.   Teknik yang kedua yaitu encoding data dimana pada teknik ini digunakan untuk menyandikan nilai unik ke dalam indeks integer pada kolom User_ID dan Movie_ID. Kemudian hasil encoding tersebut saya masukkan ke dalam dataframe df. Hasil dari proses encoding data adalah sebagai berikut: 
+	
 	* Encoding data pada User_ID
 	
-	![messageImage_1635931551044](https://user-images.githubusercontent.com/89082302/140036416-f1eba63c-6da0-4e34-93f6-4eaf256bbbad.jpg)
+		![messageImage_1635931551044](https://user-images.githubusercontent.com/89082302/140036416-f1eba63c-6da0-4e34-93f6-4eaf256bbbad.jpg)
 	
 	* Encoding data pada Movie_ID
 	
-	![messageImage_1635931563219](https://user-images.githubusercontent.com/89082302/140036436-59bb5d18-66ed-4a45-8c11-dfbf85875cb2.jpg)
+		![messageImage_1635931563219](https://user-images.githubusercontent.com/89082302/140036436-59bb5d18-66ed-4a45-8c11-dfbf85875cb2.jpg)
 
 Lalu untuk teknik cek data duplicated tidak saya gunakan karena pada dataset kolom Movie_ID memiliki pengaruh yang signifikan ke jumlah data yang saya gunakan jika dilakukan drop. 
 Kemudian setelah menerapkan kedua teknik di atas sekarang kita bisa cek kembali data kita mulai dari jumlah pengguna, jumlah film dan rating minimum dan maksimum yang ada sekarang. Berikut adalah hasil mengenai data yang kita punya: 
 
-![messageImage_1635931570419](https://user-images.githubusercontent.com/89082302/140036557-06d76a1e-4284-4e9a-bc5c-f33fc4f64038.jpg)
+	![messageImage_1635931570419](https://user-images.githubusercontent.com/89082302/140036557-06d76a1e-4284-4e9a-bc5c-f33fc4f64038.jpg)
 
 3.   Selanjutnya membagi data menjadi data train dan data validasi. Dimana persentase pembagian data nya yaitu 80% data train dan 20% data validasi. Dimana perlu dipetakkan (mapping) terlebih dahulu pada data User dan Mook menjadi satu value. Proses ini dilakukan untuk menguji model terhadap data baru.
 
-![messageImage_1635931578158](https://user-images.githubusercontent.com/89082302/140036598-7c07a7ab-33d3-4b89-8c76-d8801b2a3c55.jpg)
+	![messageImage_1635931578158](https://user-images.githubusercontent.com/89082302/140036598-7c07a7ab-33d3-4b89-8c76-d8801b2a3c55.jpg)
 
 
 ## Modeling and Result
