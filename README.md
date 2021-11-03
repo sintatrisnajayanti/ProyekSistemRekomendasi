@@ -96,7 +96,7 @@ Kemudian setelah menerapkan kedua teknik di atas sekarang kita bisa cek kembali 
 
 ![messageImage_1635931570419](https://user-images.githubusercontent.com/89082302/140036557-06d76a1e-4284-4e9a-bc5c-f33fc4f64038.jpg)
 
-3.   Selanjutnya membagi data menjadi data train dan data validasi. Dimana persentase pembagian data nya yaitu 80% data train dan 20% data validasi. Dimana perlu dipetakkan (mapping) terlebih dahulu pada data User dan Mook menjadi satu value. Proses ini dilakukan untuk menguji model terhadap data baru.
+3.   Selanjutnya membagi data menjadi data train dan data validasi. Dimana persentase pembagian data nya yaitu 80% data train dan 20% data validasi. Dimana perlu dipetakkan (mapping) terlebih dahulu pada data User dan Movie menjadi satu value. Proses ini dilakukan untuk menguji model terhadap data baru.
 
 ![messageImage_1635931578158](https://user-images.githubusercontent.com/89082302/140036598-7c07a7ab-33d3-4b89-8c76-d8801b2a3c55.jpg)
 
