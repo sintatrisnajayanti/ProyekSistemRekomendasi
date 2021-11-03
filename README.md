@@ -66,12 +66,12 @@ Dalam proses data understanding, yang pertama saya menggunakan visualisasi data 
 Dapat dilihat pada gambar di atas bahwa terjadi peningkatan yang pesat untuk film yang rilis mulai dari tahun 1990 sampai tahun 2000an dibandingkan tahun-tahun sebelumnya. 
 Kemudian saya juga menggabungkan data_ratings dan data_movie untuk melihat visualisasi data dari 10 besar film yang sudah dirilis menggunakan barplot. Visualisasi data  ini mengambil data pengguna yang memberikan penilaian pada suatu film. 
 
-![messageImage_1635931076378](https://user-images.githubusercontent.com/89082302/140035048-5ddc099c-cb5d-49b0-b108-b2015e0c57c7.jpg)
+![messageImage_1635933024129](https://user-images.githubusercontent.com/89082302/140039432-4fc5261f-353f-4bbb-856d-17600763bfbe.jpg)
 
 Pada gambar di atas menunjukkan bahwa pada film “The Exterminating Angel” memiliki data penilaian dari pengguna paling terbanyak. 
 Lalu saya juga ingin menampilkan visualisasi data dari kolom Director menggunakan barplot. Dimana disini 10 director terpopuler akan ditampilkan sebagai berikut:
 
-![messageImage_1635931082928](https://user-images.githubusercontent.com/89082302/140035089-cc7592c9-2862-423b-b4ed-12081a5479c8.jpg)
+![messageImage_1635933005037](https://user-images.githubusercontent.com/89082302/140039443-a38011a5-6000-4eed-99a8-f3097146979d.jpg)
 
  Dapat dilihat pada gambar di atas bahwa “Francois Truffaut” memiliki jumlah film yang rilis paling banyak yang menjadikannya masuk ke 10 director terpopuler. 
 
