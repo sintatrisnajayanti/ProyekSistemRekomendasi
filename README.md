@@ -69,11 +69,16 @@ Kemudian saya juga menggabungkan data_ratings dan data_movie untuk melihat visua
 ![messageImage_1635931076378](https://user-images.githubusercontent.com/89082302/140035048-5ddc099c-cb5d-49b0-b108-b2015e0c57c7.jpg)
 
 Pada gambar di atas menunjukkan bahwa pada film “The Exterminating Angel” memiliki data penilaian dari pengguna paling terbanyak. 
-Lalu saya juga ingin menampilkan visualisasi data dari kolom Director menggunakan barplot. Dimana disini 10 director terpopuler akan ditampilkan sebagai berikut.
+Lalu saya juga ingin menampilkan visualisasi data dari kolom Director menggunakan barplot. Dimana disini 10 director terpopuler akan ditampilkan sebagai berikut:
 
 ![messageImage_1635931082928](https://user-images.githubusercontent.com/89082302/140035089-cc7592c9-2862-423b-b4ed-12081a5479c8.jpg)
 
  Dapat dilihat pada gambar di atas bahwa “Francois Truffaut” memiliki jumlah film yang rilis paling banyak yang menjadikannya masuk ke 10 director terpopuler. 
+
 ## Data Preparation
+Dalam data preparation ini saya menggunakan beberapa teknik untuk memeriksa ketiga data yang saya gunakan. Data yang dimaksud yaitu pada data_movie, data_ratings, dan df (gabungan kedua data). 
+1.   Teknik pertama yaitu mengecek data null karena jika ada data yang kosong atau nol akan membuat prediksi menjadi kurang akurat. Jika terdapat data yang mengandung null maka dihapus menggunakan dataframe.dropna(). Hasil dari cek data null pada 3 data yang saya gunakan sebagai berikut: 
+2.   Item daftar
+Teknik pertama yaitu mengecek data null karena jika ada data yang kosong atau nol akan membuat prediksi menjadi kurang akurat. Jika terdapat data yang mengandung null maka dihapus menggunakan dataframe.dropna(). Hasil dari cek data null pada 3 data yang saya gunakan sebagai berikut. 
 ## Modeling and Result
 ## Evaluation
