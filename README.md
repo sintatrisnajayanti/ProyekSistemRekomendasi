@@ -100,6 +100,25 @@ Kemudian setelah menerapkan kedua teknik di atas sekarang kita bisa cek kembali 
 
 ![messageImage_1635931578158](https://user-images.githubusercontent.com/89082302/140036598-7c07a7ab-33d3-4b89-8c76-d8801b2a3c55.jpg)
 
-
 ## Modeling and Result
+Pada proyek ini saya menggunakan pendekatan Collaborative Filtering dengan metode Deep Learning. Pada modeling ini proses pertama yang dilakukan yaitu proses embedding pada data user dan movie. Kemudian dilakukan compile model menggunakan optimizer SGD, metriks MAE dan RMSE. Lalu yang terakhir menampilkan rekomendasi film. Hasil dari rekomendasi film adalah sebagai berikut: 
+
+![messageImage_1635932356155](https://user-images.githubusercontent.com/89082302/140037873-dc1d4172-bf47-45c9-8ae1-87c7b39d863c.jpg)
+
+Dapat dilihat pada gambar di atas bahwa ID pengguna '”78562146” menyukai film “Confidentially Yours” dengan memberikan rating tinggi. Maka dari itu sistem ini akan memberikan 10 rekomendasi film yang mirip dengan yang disukai pengguna. 3 rekomendasi film teratas adalah “The Exterminating Angel”, “Simon of the Desert”, “Hobson's Choice”. 
+
 ## Evaluation
+Pada evaluation ini saya menggunakan metriks  Mean Absolute Error (MAE) , Root Mean Squared Error (RMSE). MAE dan RMSE menyatakan kesalahan prediksi model rata-rata dalam unit variabel yang diminati. Kedua metrik dapat berkisar dari 0 hingga ∞ dan tidak berbeda dengan arah kesalahan. Mereka adalah skor berorientasi negatif, yang berarti nilai yang lebih rendah lebih baik. Kedua metriks ini memiliki hubungan dengan rating dari pengguna. Berikut adalah penjelasan mengenai metriks yang saya gunakan:
+
+*	Mean Absolute Error (MAE)
+MAE mengukur besarnya rata-rata kesalahan dalam serangkaian prediksi, tanpa mempertimbangkan arahnya. Semakin kecil nilai MAE, semakin baik model tersebut dalam melakukan prediksi. Berikut adalah rumus untuk menghitung MAE: 
+
+![messageImage_1635932545600](https://user-images.githubusercontent.com/89082302/140038517-295f38e6-797e-4ffc-8b5b-3c86c5b388ec.jpg)
+
+*	Root Mean Squared Error (RMSE) untuk menghitung seberapa berbedanya seperangkat nilai. Semakin kecil nilai RMSE, semakin dekat nilai yang diprediksi dan diamati. Untuk menghitung nilai dari RMSE menggunakan rumus berikut: 
+
+![messageImage_1635932660849](https://user-images.githubusercontent.com/89082302/140038530-85b6eecb-8f03-49e2-bf6b-d511a6dceb9e.jpg)
+
+Di dalam evaluation ini saya juga akan menampilkan visualisasi dari metriks yang saya gunakan adalah sebagai berikut: 
+
+![messageImage_1635932719547](https://user-images.githubusercontent.com/89082302/140038615-413e35e6-390b-4916-a05d-36bc19fb291d.jpg)
