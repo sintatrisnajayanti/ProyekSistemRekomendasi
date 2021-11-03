@@ -109,7 +109,7 @@ Dapat dilihat pada gambar di atas bahwa ID pengguna '”78562146” menyukai fil
 Pada collaborative filtering memiliki beberapa kelebihan yaitu rekomendasi tetap akan berkerja dalam keadaan dimana konten sulit dianalisi sekalipun, namun memiliki kekurangan yaitu membutuhkan parameter rating, sehingga jika ada item baru sistem tidak akan merekomendasikan item tersebut. 
 
 ## Evaluation
-Pada evaluation ini saya menggunakan metriks  Mean Absolute Error (MAE) , Root Mean Squared Error (RMSE). MAE dan RMSE menyatakan kesalahan prediksi model rata-rata dalam unit variabel yang diminati. Kedua metrik dapat berkisar dari 0 hingga ∞ dan tidak berbeda dengan arah kesalahan. Mereka adalah skor berorientasi negatif, yang berarti nilai yang lebih rendah lebih baik. Kedua metriks ini memiliki hubungan dengan rating dari pengguna. Berikut adalah penjelasan mengenai metriks yang saya gunakan:
+Pada evaluation ini saya menggunakan metriks  Mean Absolute Error (MAE) , Root Mean Squared Error (RMSE). MAE dan RMSE menyatakan kesalahan prediksi model rata-rata dalam unit variabel yang diminati. Kedua metriks dapat berkisar dari 0 hingga ∞ dan tidak berbeda dengan arah kesalahan. Mereka adalah skor berorientasi negatif, yang berarti nilai yang lebih rendah lebih baik. Kedua metriks ini memiliki hubungan dengan rating dari pengguna. Berikut adalah penjelasan mengenai metriks yang saya gunakan:
 
 *	Mean Absolute Error (MAE)
 MAE mengukur besarnya rata-rata kesalahan dalam serangkaian prediksi, tanpa mempertimbangkan arahnya. Semakin kecil nilai MAE, semakin baik model tersebut dalam melakukan prediksi. Berikut adalah rumus untuk menghitung MAE: 
