@@ -106,6 +106,7 @@ Pada proyek ini saya menggunakan pendekatan Collaborative Filtering dengan metod
 ![messageImage_1635932356155](https://user-images.githubusercontent.com/89082302/140037873-dc1d4172-bf47-45c9-8ae1-87c7b39d863c.jpg)
 
 Dapat dilihat pada gambar di atas bahwa ID pengguna '”78562146” menyukai film “Confidentially Yours” dengan memberikan rating tinggi. Maka dari itu sistem ini akan memberikan 10 rekomendasi film yang mirip dengan yang disukai pengguna. 3 rekomendasi film teratas adalah “The Exterminating Angel”, “Simon of the Desert”, “Hobson's Choice”. 
+Metode collaborative filtering memiliki beberapa kelebihan yaitu rekomendasi tetap akan berkerja dalam keadaan dimana konten sulit dianalisi sekalipun, namun metode ini juga memiliki kekurangan yaitu membutuhkan parameter rating, sehingga jika ada item baru sistem tidak akan merekomendasikan item tersebut. 
 
 ## Evaluation
 Pada evaluation ini saya menggunakan metriks  Mean Absolute Error (MAE) , Root Mean Squared Error (RMSE). MAE dan RMSE menyatakan kesalahan prediksi model rata-rata dalam unit variabel yang diminati. Kedua metrik dapat berkisar dari 0 hingga ∞ dan tidak berbeda dengan arah kesalahan. Mereka adalah skor berorientasi negatif, yang berarti nilai yang lebih rendah lebih baik. Kedua metriks ini memiliki hubungan dengan rating dari pengguna. Berikut adalah penjelasan mengenai metriks yang saya gunakan:
