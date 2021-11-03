@@ -83,9 +83,13 @@ Dalam data preparation ini saya menggunakan beberapa teknik untuk memeriksa keti
 
 2.   Teknik yang kedua yaitu encoding data dimana pada teknik ini digunakan untuk menyandikan nilai unik ke dalam indeks integer pada kolom User_ID dan Movie_ID. Kemudian hasil encoding tersebut saya masukkan ke dalam dataframe df. Hasil dari proses encoding data adalah sebagai berikut: 
   
- 	* Encoding data pada User_ID
-	* Encoding data pada Movie_ID
+ **Encoding data pada User_ID**
+	
+![messageImage_1635931551044](https://user-images.githubusercontent.com/89082302/140037528-bcd514f1-1dd9-44f4-bd39-7ffe75d3675e.jpg)
 
+**Encoding data pada Movie_ID**
+	
+![messageImage_1635931563219](https://user-images.githubusercontent.com/89082302/140037630-20dfb07e-6700-4439-9eef-421746044f5f.jpg)
 
 Lalu untuk teknik cek data duplicated tidak saya gunakan karena pada dataset kolom Movie_ID memiliki pengaruh yang signifikan ke jumlah data yang saya gunakan jika dilakukan drop. 
 Kemudian setelah menerapkan kedua teknik di atas sekarang kita bisa cek kembali data kita mulai dari jumlah pengguna, jumlah film dan rating minimum dan maksimum yang ada sekarang. Berikut adalah hasil mengenai data yang kita punya: 
