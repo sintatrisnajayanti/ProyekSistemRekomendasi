@@ -18,6 +18,7 @@ Untuk mencapai tujuan membuat sistem rekomendasi film disini saya menggunakan pe
 
 ## Data Understanding
 Dataset yang saya ambil berasal dari [kaggle](https://www.kaggle.com/) . yang merupakan salah satu platform di bidang Data Science. Pada proyek ini saya menggunakan dataset berikut dimana sesuai dengan topik yang saya ambil yaitu mengenai data film pada platform [MUBI](https://mubi.com/) . Berikut adalah penjelasan mengenai kolom pada dataset:
+
 **mubi_movie_data.csv**
 *	movie_id: ID yang terkait dengan film di Mubi
 *	movie_title: Nama film atau judul film
@@ -29,6 +30,7 @@ Dataset yang saya ambil berasal dari [kaggle](https://www.kaggle.com/) . yang me
 *	director_id: ID yang terkait dengan sutradara film di Mubi
 *	director_name: Nama lengkap sutradara Film
 *	director_url: URL ke halaman sutradara film di Mubi
+
 **mubi_ratings_data.csv**
 *	movie_id: ID film terkait dengan peringkat
 *	rating_id: Peringkat ID di Mubi
