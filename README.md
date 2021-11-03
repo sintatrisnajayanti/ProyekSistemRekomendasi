@@ -126,3 +126,4 @@ Di dalam evaluation ini saya juga akan menampilkan visualisasi dari metriks yang
 ![messageImage_1635933173677](https://user-images.githubusercontent.com/89082302/140039847-22f4a9f6-a7ac-41fc-acb3-26e1f0f13879.jpg)
 
 ## Kesimpulan
+Pada proyek ini berhasil membuat sistem rekomendasi film. Dimana sistem dapat merekomendasikan 10 film menggunakan penilaian rating dari pengguna. Kemudian proyek ini juga menggunakan pendekatan Collaborative Filtering dengan metode Deep Learning. Metriks yang digunakan MAE dan RMSE dapat memberikan prediksi yang akurat karena semakin data dilatih nilai error juga semakin kecil.
