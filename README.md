@@ -113,12 +113,15 @@ Pada evaluation ini saya menggunakan metriks  Mean Absolute Error (MAE) , Root M
 *	Mean Absolute Error (MAE)
 MAE mengukur besarnya rata-rata kesalahan dalam serangkaian prediksi, tanpa mempertimbangkan arahnya. Semakin kecil nilai MAE, semakin baik model tersebut dalam melakukan prediksi. Berikut adalah rumus untuk menghitung MAE: 
 
-![messageImage_1635932545600](https://user-images.githubusercontent.com/89082302/140038517-295f38e6-797e-4ffc-8b5b-3c86c5b388ec.jpg)
+![messageImage_1635932818334](https://user-images.githubusercontent.com/89082302/140039025-27d77b35-f0df-4b6c-9941-ae4dca073a6f.jpg)
 
 *	Root Mean Squared Error (RMSE) untuk menghitung seberapa berbedanya seperangkat nilai. Semakin kecil nilai RMSE, semakin dekat nilai yang diprediksi dan diamati. Untuk menghitung nilai dari RMSE menggunakan rumus berikut: 
 
-![messageImage_1635932660849](https://user-images.githubusercontent.com/89082302/140038530-85b6eecb-8f03-49e2-bf6b-d511a6dceb9e.jpg)
+![messageImage_1635932832261](https://user-images.githubusercontent.com/89082302/140039000-e7324e91-82e7-4606-a581-04e042b8e011.jpg)
+
 
 Di dalam evaluation ini saya juga akan menampilkan visualisasi dari metriks yang saya gunakan adalah sebagai berikut: 
 
-![messageImage_1635932719547](https://user-images.githubusercontent.com/89082302/140038615-413e35e6-390b-4916-a05d-36bc19fb291d.jpg)
+![messageImage_1635932719547](https://user-images.githubusercontent.com/89082302/140039036-453c5d14-f7c2-4ce0-a2a2-d06430073738.jpg)
+
+## Kesimpulan
