@@ -45,7 +45,7 @@ Dataset yang saya ambil berasal dari [kaggle](https://www.kaggle.com/) . yang me
 	* 1 = pengguna adalah seorang trialist ketika dia menilai film
 	* 0 = pengguna bukan seorang trialist ketika dia menilai film
 
-Pada proyek kali ini saya hanya menggunakan beberapa kolom saja dan mengganti nama kolom tersebut menjadi seperti berikut ini: 
+Pada proyek kali ini saya hanya menggunakan beberapa kolom saja dan mengganti nama kolom tersebut menjadi seperti berikut: 
 
 **mubi_movie_data.csv**
 
