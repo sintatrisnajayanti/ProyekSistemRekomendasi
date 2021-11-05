@@ -98,7 +98,6 @@ Kemudian setelah menerapkan kedua teknik di atas sekarang kita bisa cek kembali 
 
 3.   Selanjutnya membagi data menjadi data train dan data validasi. Dimana persentase pembagian data nya yaitu 80% data train dan 20% data validasi. Dimana perlu dipetakkan (mapping) terlebih dahulu pada data User dan Movie menjadi satu value. Proses ini dilakukan untuk menguji model terhadap data baru.
 
-![messageImage_1635931578158](https://user-images.githubusercontent.com/89082302/140036598-7c07a7ab-33d3-4b89-8c76-d8801b2a3c55.jpg)
 
 ## Modeling and Result
 Pada proyek ini saya menggunakan pendekatan Collaborative Filtering dengan metode Deep Learning. Pada modeling ini proses pertama yang dilakukan yaitu proses embedding pada data user dan movie. Kemudian dilakukan compile model menggunakan optimizer SGD, metriks MAE dan RMSE. Lalu yang terakhir menampilkan rekomendasi film. Hasil dari rekomendasi film adalah sebagai berikut: 
